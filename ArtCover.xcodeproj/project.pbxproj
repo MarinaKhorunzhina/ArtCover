@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		9CC2FA0F27E0F0CA004D6069 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC2FA0E27E0F0CA004D6069 /* AppDelegate.swift */; };
 		9CC2FA1127E0F0CA004D6069 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC2FA1027E0F0CA004D6069 /* SceneDelegate.swift */; };
-		9CC2FA1327E0F0CA004D6069 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC2FA1227E0F0CA004D6069 /* ViewController.swift */; };
 		9CC2FA1627E0F0CA004D6069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC2FA1427E0F0CA004D6069 /* Main.storyboard */; };
 		9CC2FA1927E0F0CA004D6069 /* ArtCover.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CC2FA1727E0F0CA004D6069 /* ArtCover.xcdatamodeld */; };
 		9CC2FA1B27E0F0CB004D6069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC2FA1A27E0F0CB004D6069 /* Assets.xcassets */; };
 		9CC2FA1E27E0F0CB004D6069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC2FA1C27E0F0CB004D6069 /* LaunchScreen.storyboard */; };
+		9CC2FA2627E0F102004D6069 /* TrackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC2FA2527E0F102004D6069 /* TrackList.swift */; };
+		9CC2FA2827E0F478004D6069 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC2FA2727E0F478004D6069 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9CC2FA0B27E0F0CA004D6069 /* ArtCover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtCover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC2FA0E27E0F0CA004D6069 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CC2FA1027E0F0CA004D6069 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CC2FA1227E0F0CA004D6069 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CC2FA1527E0F0CA004D6069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CC2FA1827E0F0CA004D6069 /* ArtCover.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtCover.xcdatamodel; sourceTree = "<group>"; };
 		9CC2FA1A27E0F0CB004D6069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CC2FA1D27E0F0CB004D6069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CC2FA1F27E0F0CB004D6069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC2FA2527E0F102004D6069 /* TrackList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackList.swift; sourceTree = "<group>"; };
+		9CC2FA2727E0F478004D6069 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			children = (
 				9CC2FA0E27E0F0CA004D6069 /* AppDelegate.swift */,
 				9CC2FA1027E0F0CA004D6069 /* SceneDelegate.swift */,
-				9CC2FA1227E0F0CA004D6069 /* ViewController.swift */,
+				9CC2FA2527E0F102004D6069 /* TrackList.swift */,
+				9CC2FA2727E0F478004D6069 /* DetailVC.swift */,
 				9CC2FA1427E0F0CA004D6069 /* Main.storyboard */,
 				9CC2FA1A27E0F0CB004D6069 /* Assets.xcassets */,
 				9CC2FA1C27E0F0CB004D6069 /* LaunchScreen.storyboard */,
@@ -141,10 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC2FA1327E0F0CA004D6069 /* ViewController.swift in Sources */,
+				9CC2FA2827E0F478004D6069 /* DetailVC.swift in Sources */,
 				9CC2FA0F27E0F0CA004D6069 /* AppDelegate.swift in Sources */,
 				9CC2FA1127E0F0CA004D6069 /* SceneDelegate.swift in Sources */,
 				9CC2FA1927E0F0CA004D6069 /* ArtCover.xcdatamodeld in Sources */,
+				9CC2FA2627E0F102004D6069 /* TrackList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
